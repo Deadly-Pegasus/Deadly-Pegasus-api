@@ -31,3 +31,8 @@
 /Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/obj/Debug/net9.0/Deadly.Pegasus.Api.pdb
 /Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/obj/Debug/net9.0/Deadly.Pegasus.Api.genruntimeconfig.cache
 /Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/obj/Debug/net9.0/ref/Deadly.Pegasus.Api.dll
+/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/bin/Debug/net9.0/Deadly.Pegasus.Domain.dll
+/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/bin/Debug/net9.0/Deadly.Pegasus.Domain.pdb
+/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
