@@ -1,0 +1,6 @@
+@Deadly.Pegasus.Api_HostAddress = http://localhost:5138
+
+GET {{Deadly.Pegasus.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

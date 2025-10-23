@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9A0ad1qx4AI=",
+  "success": true,
+  "projectFilePath": "/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/Deadly.Pegasus.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/makarov/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/Users/makarov/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
