@@ -10,3 +10,15 @@
 /Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/refint/Deadly.Pegasus.Domain.dll
 /Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/Deadly.Pegasus.Domain.pdb
 /Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/ref/Deadly.Pegasus.Domain.dll
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/bin/Debug/net9.0/Deadly.Pegasus.Domain.deps.json
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/bin/Debug/net9.0/Deadly.Pegasus.Domain.dll
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/bin/Debug/net9.0/Deadly.Pegasus.Domain.pdb
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/Deadly.Pegasus.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/Deadly.Pegasus.Domain.AssemblyInfoInputs.cache
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/Deadly.Pegasus.Domain.AssemblyInfo.cs
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/Deadly.Pegasus.Domain.csproj.CoreCompileInputs.cache
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/Deadly.Pegasus.Domain.sourcelink.json
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/Deadly.Pegasus.Domain.dll
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/refint/Deadly.Pegasus.Domain.dll
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/Deadly.Pegasus.Domain.pdb
+/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/ref/Deadly.Pegasus.Domain.dll

@@ -494,19 +494,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/makarov/.nuget/packages/": {}
+    "/Users/lauraarockiasamy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/Deadly.Pegasus.Api.csproj",
+      "projectUniqueName": "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/Deadly.Pegasus.Api.csproj",
       "projectName": "Deadly.Pegasus.Api",
-      "projectPath": "/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/Deadly.Pegasus.Api.csproj",
-      "packagesPath": "/Users/makarov/.nuget/packages/",
-      "outputPath": "/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/obj/",
+      "projectPath": "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/Deadly.Pegasus.Api.csproj",
+      "packagesPath": "/Users/lauraarockiasamy/.nuget/packages/",
+      "outputPath": "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/makarov/.nuget/NuGet/NuGet.Config"
+        "/Users/lauraarockiasamy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -518,8 +518,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/Deadly.Pegasus.Domain.csproj": {
-              "projectPath": "/Users/makarov/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/Deadly.Pegasus.Domain.csproj"
+            "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/Deadly.Pegasus.Domain.csproj": {
+              "projectPath": "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/Deadly.Pegasus.Domain.csproj"
             }
           }
         }

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Deadly.Pegasus.Domain.Catalog;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Deadly.Pegasus.Api.Controllers
 {
@@ -7,10 +8,32 @@ namespace Deadly.Pegasus.Api.Controllers
     [Route("[controller]")]
     public class CatalogController : ControllerBase
     {
-       [HttpGet]
+        [HttpGet]
         public IActionResult GetItems()
         {
-            return Ok("hello world.");
+            var items = new List<Item>()
+            {
+                new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m),
+                new Item("Shorts", "Ohio State shorts.", "Nike", 44.99m)
+            };
+
+            return Ok(items);
         }
-    }
-}
+
+        [HttpGet("{id:int}")]
+        public IActionResult GetItem(int id)
+        {
+            var item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m);
+            item.Id = id;
+
+            return Ok(item);
+        }
+
+        [HttpPost] // FIXED: moved inside the class
+        public IActionResult Post(Item item)
+        {
+            return Created("/catalog/42", item);
+        } // FIXED: properly placed inside the class
+    } // FIXED: closes class after Post
+} // FIXED: closes namespace after class
+
