@@ -111,6 +111,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Deadly-Pegasus.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Deadly.Pegasus.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Deadly-Pegasus.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Deadly-Pegasus.Data.dll": {}
+        }
+      },
       "Deadly.Pegasus.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -480,6 +493,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "Deadly-Pegasus.Data/1.0.0": {
+      "type": "project",
+      "path": "../Deadly-Pegasus.Data/Deadly-Pegasus.Data.csproj",
+      "msbuildProject": "../Deadly-Pegasus.Data/Deadly-Pegasus.Data.csproj"
+    },
     "Deadly.Pegasus.Domain/1.0.0": {
       "type": "project",
       "path": "../Deadly.Pegasus.Domain/Deadly.Pegasus.Domain.csproj",
@@ -488,25 +506,26 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Deadly-Pegasus.Data >= 1.0.0",
       "Deadly.Pegasus.Domain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.10",
       "Swashbuckle.AspNetCore >= 9.0.6"
     ]
   },
   "packageFolders": {
-    "/Users/lauraarockiasamy/.nuget/packages/": {}
+    "C:\\Users\\mercy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/Deadly.Pegasus.Api.csproj",
+      "projectUniqueName": "C:\\Users\\mercy\\OneDrive\\Desktop\\repos\\Deadly-Pegasus-api\\Deadly.Pegasus.Api\\Deadly.Pegasus.Api.csproj",
       "projectName": "Deadly.Pegasus.Api",
-      "projectPath": "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/Deadly.Pegasus.Api.csproj",
-      "packagesPath": "/Users/lauraarockiasamy/.nuget/packages/",
-      "outputPath": "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Api/obj/",
+      "projectPath": "C:\\Users\\mercy\\OneDrive\\Desktop\\repos\\Deadly-Pegasus-api\\Deadly.Pegasus.Api\\Deadly.Pegasus.Api.csproj",
+      "packagesPath": "C:\\Users\\mercy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mercy\\OneDrive\\Desktop\\repos\\Deadly-Pegasus-api\\Deadly.Pegasus.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/lauraarockiasamy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mercy\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -518,8 +537,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/Deadly.Pegasus.Domain.csproj": {
-              "projectPath": "/Users/lauraarockiasamy/mis4630/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/Deadly.Pegasus.Domain.csproj"
+            "C:\\Users\\mercy\\OneDrive\\Desktop\\repos\\Deadly-Pegasus-api\\Deadly-Pegasus.Data\\Deadly-Pegasus.Data.csproj": {
+              "projectPath": "C:\\Users\\mercy\\OneDrive\\Desktop\\repos\\Deadly-Pegasus-api\\Deadly-Pegasus.Data\\Deadly-Pegasus.Data.csproj"
+            },
+            "C:\\Users\\mercy\\OneDrive\\Desktop\\repos\\Deadly-Pegasus-api\\Deadly.Pegasus.Domain\\Deadly.Pegasus.Domain.csproj": {
+              "projectPath": "C:\\Users\\mercy\\OneDrive\\Desktop\\repos\\Deadly-Pegasus-api\\Deadly.Pegasus.Domain\\Deadly.Pegasus.Domain.csproj"
             }
           }
         }
@@ -568,7 +590,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
