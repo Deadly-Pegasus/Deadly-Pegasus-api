@@ -406,14 +406,7 @@
         }
       },
       "System.Memory/4.5.3": {},
-      "System.Text.Json/9.0.10": {
-        "runtime": {
-          "lib/net9.0/System.Text.Json.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.1025.47515"
-          }
-        }
-      },
+      "System.Text.Json/9.0.10": {},
       "Deadly-Pegasus.Data/1.0.0": {
         "dependencies": {
           "Deadly.Pegasus.Domain": "1.0.0",

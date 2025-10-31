@@ -34,3 +34,15 @@ C:/Users/mercy/OneDrive/Desktop/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/o
 C:/Users/mercy/OneDrive/Desktop/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/refint/Deadly.Pegasus.Domain.dll
 C:/Users/mercy/OneDrive/Desktop/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/Deadly.Pegasus.Domain.pdb
 C:/Users/mercy/OneDrive/Desktop/repos/Deadly-Pegasus-api/Deadly.Pegasus.Domain/obj/Debug/net9.0/ref/Deadly.Pegasus.Domain.dll
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\bin\Debug\net9.0\Deadly.Pegasus.Domain.deps.json
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\bin\Debug\net9.0\Deadly.Pegasus.Domain.dll
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\bin\Debug\net9.0\Deadly.Pegasus.Domain.pdb
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\obj\Debug\net9.0\Deadly.Pegasus.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\obj\Debug\net9.0\Deadly.Pegasus.Domain.AssemblyInfoInputs.cache
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\obj\Debug\net9.0\Deadly.Pegasus.Domain.AssemblyInfo.cs
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\obj\Debug\net9.0\Deadly.Pegasus.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\obj\Debug\net9.0\Deadly.Pegasus.Domain.sourcelink.json
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\obj\Debug\net9.0\Deadly.Pegasus.Domain.dll
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\obj\Debug\net9.0\refint\Deadly.Pegasus.Domain.dll
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\obj\Debug\net9.0\Deadly.Pegasus.Domain.pdb
+C:\Users\mercy\OneDrive\Desktop\repos\Deadly-Pegasus-api\Deadly.Pegasus.Domain\obj\Debug\net9.0\ref\Deadly.Pegasus.Domain.dll
