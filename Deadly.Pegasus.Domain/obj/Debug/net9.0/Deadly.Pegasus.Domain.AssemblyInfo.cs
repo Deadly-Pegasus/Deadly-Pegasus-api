@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Deadly.Pegasus.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdbf20f1e12d4d1dfabc9cc03e0010c3c07aa8fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e727f3d835e6b0fc7a2a106fa349f120c8153c99")]
 [assembly: System.Reflection.AssemblyProductAttribute("Deadly.Pegasus.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Deadly.Pegasus.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
