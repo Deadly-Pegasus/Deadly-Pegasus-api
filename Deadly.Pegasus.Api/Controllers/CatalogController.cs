@@ -25,17 +25,29 @@ namespace Deadly.Pegasus.Api.Controllers
         [HttpGet("{id:int}")]
         public IActionResult GetItem(int id)
         {
-            var item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m);
-            item.Id = id;
+            //var item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m);
+            //item.Id = id;
 
+            //return Ok(item);
+
+            //return Ok(_db.Items.Find(id));
+
+            var item = _db.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
             return Ok(item);
         }
 
-        [HttpPost] // FIXED: moved inside the class
+        [HttpPost] 
         public IActionResult Post(Item item)
         {
-            return Created("/catalog/42", item);
-        } // FIXED: properly placed inside the class
+            _db.Items.Add(item);
+            _db.SaveChanges();
+            return Created($"/catalog/{item.Id}", item);
+            //return Created("/catalog/42", item);
+        } 
 
         [HttpPost("{id:int}/ratings")]
         public IActionResult PostRating (int id, [FromBody] Rating rating)
