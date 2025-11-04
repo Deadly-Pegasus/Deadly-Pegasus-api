@@ -1,0 +1,9 @@
+POST http://localhost:7250/catalog
+Content-Type: application/json
+
+{
+  "name": "Shoes",
+  "description": "Ohio State shoes",
+  "brand": "Nike",
+  "price": 129.99
+}

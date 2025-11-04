@@ -1,23 +1,25 @@
 using Microsoft.AspNetCore.Mvc;
 using Deadly.Pegasus.Domain.Catalog;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Deadly.Pegasus.Data;
 
 namespace Deadly.Pegasus.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/catalog")]
     public class CatalogController : ControllerBase
     {
+        private readonly StoreContext _db;
+
+        public CatalogController(StoreContext db)
+        {
+            _db = db;
+        }
+
         [HttpGet]
         public IActionResult GetItems()
         {
-            var items = new List<Item>()
-            {
-                new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m),
-                new Item("Shorts", "Ohio State shorts.", "Nike", 44.99m)
-            };
-
-            return Ok(items);
+            return Ok(_db.Items);
         }
 
         [HttpGet("{id:int}")]
@@ -34,6 +36,28 @@ namespace Deadly.Pegasus.Api.Controllers
         {
             return Created("/catalog/42", item);
         } // FIXED: properly placed inside the class
+
+        [HttpPost("{id:int}/ratings")]
+        public IActionResult PostRating (int id, [FromBody] Rating rating)
+        {
+            var item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m);
+            item.Id = id;
+            item.AddRating(rating);
+
+            return Ok(item);
+        }
+
+        [HttpPut("{id:int}")]
+        public IActionResult Put(int id, Item item)
+        {
+            return NoContent();
+        }
+
+        [HttpDelete("{id:int}")]
+        public IActionResult Delete(int id)
+        {
+            return NoContent();
+        }
     } // FIXED: closes class after Post
 } // FIXED: closes namespace after class
 
