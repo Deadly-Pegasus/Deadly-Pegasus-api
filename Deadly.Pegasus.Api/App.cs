@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<StoreContext>(options =>
     options.UseSqlite("Data Source=../Registrar.sqlite",
-    b => b.MigrationsAssembly("Deadly_Pegasus.Api"))
+    b => b.MigrationsAssembly("Deadly.Pegasus.Api"))
 );
 
 builder.Services.AddEndpointsApiExplorer();
