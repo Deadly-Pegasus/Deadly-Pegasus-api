@@ -1,5 +1,7 @@
 ﻿using Deadly.Pegasus.Domain.Catalog;
+using Deadly.Pegasus.Domain.Orders;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace Deadly.Pegasus.Data
 {
@@ -20,3 +22,5 @@ namespace Deadly.Pegasus.Data
         }
     }
 }
+    
+
