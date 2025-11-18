@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadly.Pegasus.Domain", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadly-Pegasus.Data", "Deadly-Pegasus.Data\Deadly-Pegasus.Data.csproj", "{0FCC8E84-BF4B-4DEE-B796-2883A1DECD94}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadly_Pegasus.Domain.Tests", "tests\Deadly_Pegasus.Domain.Tests\Deadly_Pegasus.Domain.Tests.csproj", "{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,8 +59,23 @@ Global
 		{0FCC8E84-BF4B-4DEE-B796-2883A1DECD94}.Release|x64.Build.0 = Release|Any CPU
 		{0FCC8E84-BF4B-4DEE-B796-2883A1DECD94}.Release|x86.ActiveCfg = Release|Any CPU
 		{0FCC8E84-BF4B-4DEE-B796-2883A1DECD94}.Release|x86.Build.0 = Release|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Debug|x64.Build.0 = Debug|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Debug|x86.Build.0 = Debug|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Release|x64.ActiveCfg = Release|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Release|x64.Build.0 = Release|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Release|x86.ActiveCfg = Release|Any CPU
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F0B90D6-EC28-461C-B5BB-BCDF832D808D} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 	EndGlobalSection
 EndGlobal
