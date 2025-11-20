@@ -12,6 +12,16 @@ builder.Services.AddDbContext<StoreContext>(options =>
     b => b.MigrationsAssembly("Deadly.Pegasus.Api"))
 );
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:3000")
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(); 
 
@@ -23,6 +33,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseHttpsRedirection();
+app.UseCors();
 
 app.UseAuthorization();
 app.MapControllers();
