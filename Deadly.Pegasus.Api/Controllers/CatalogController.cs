@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Deadly.Pegasus.Domain.Catalog;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Deadly.Pegasus.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Deadly.Pegasus.Api.Controllers
 {
@@ -87,6 +88,7 @@ namespace Deadly.Pegasus.Api.Controllers
         }
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult DeleteItem(int id)
         {
             var item = _db.Items.Find(id);
